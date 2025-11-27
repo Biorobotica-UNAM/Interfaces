@@ -4,7 +4,7 @@ project(talker_interfaces)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/SpeakText.srv"
+  "srv/Talk.srv"
 )
 
 ament_package()

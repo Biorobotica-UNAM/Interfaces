@@ -1,0 +1,3 @@
+[submodule "talker_interfaces"]
+	path = talker_interfaces
+	url = https://github.com/Biorobotica-UNAM/talker_interfaces

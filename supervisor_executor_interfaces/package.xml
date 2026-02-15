@@ -4,7 +4,7 @@
   <version>0.1.0</version>
 
   <description>
-    Service definitions for executor Authorization.
+    Service definitions for executor task authorization.
   </description>
 
   <maintainer email="marco.soriano5102@comunidad.unam.mx">

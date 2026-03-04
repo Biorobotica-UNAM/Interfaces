@@ -1,0 +1,7 @@
+string action
+string argument
+string worker_result
+string context_message
+---
+bool approved
+string message

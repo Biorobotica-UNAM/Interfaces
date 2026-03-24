@@ -12,6 +12,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Owlv2Service.srv"
   "srv/BboxToPose.srv"
   "srv/DetectByClass.srv"
+  "srv/GetDetections.srv"
   "srv/GetBbox.srv"
   "msg/YoloDetection.msg"
   "msg/YoloDetections.msg"

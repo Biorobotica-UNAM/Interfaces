@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/DetectByClass.srv"
   "srv/GetDetections.srv"
   "srv/GetBbox.srv"
+  "srv/FindSeat.srv"
   "msg/YoloDetection.msg"
   "msg/YoloDetections.msg"
   

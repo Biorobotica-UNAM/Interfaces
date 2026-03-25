@@ -1,0 +1,5 @@
+# Request (Vacio como un Trigger)
+---
+bool success
+string message
+geometry_msgs/PointStamped point

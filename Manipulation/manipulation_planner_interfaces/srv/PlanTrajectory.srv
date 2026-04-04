@@ -6,4 +6,3 @@ bool success
 string message
 string[] joint_names
 float64[] waypoints
-float64[] timestamps

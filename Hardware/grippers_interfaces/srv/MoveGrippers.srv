@@ -1,0 +1,6 @@
+string  cmd          # open, close
+---
+bool    success      # 0 stalled, 1 reached
+uint16  speed_rpm
+uint16  current
+string  message

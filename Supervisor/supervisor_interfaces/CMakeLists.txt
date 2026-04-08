@@ -27,6 +27,7 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SystemStatus.msg"
+  "msg/TaskExecutionReport.msg"
   DEPENDENCIES std_msgs
 )
 

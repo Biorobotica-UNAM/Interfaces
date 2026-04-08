@@ -1,0 +1,6 @@
+string planning_group
+string[] joint_names
+float64[] waypoints
+---
+bool success
+string message

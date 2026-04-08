@@ -1,0 +1,11 @@
+# Request
+string name
+---
+# Response
+bool success
+string name 
+string description
+string coords
+float32[] bbox
+float32 z
+

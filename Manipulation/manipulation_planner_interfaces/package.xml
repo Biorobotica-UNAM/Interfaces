@@ -4,8 +4,7 @@
   <version>0.1.0</version>
 
   <description>
-    Service definitions for inverse kinematics and manipulation planning
-    for Justina's right arm.
+    Service definitions for Justina's manipulation planning.
   </description>
 
   <maintainer email="marco.soriano5102@comunidad.unam.mx">

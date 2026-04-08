@@ -1,5 +1,5 @@
 geometry_msgs/PoseStamped target_pose
+string arm
 ---
-float64[] joint_positions
 bool success
 string message

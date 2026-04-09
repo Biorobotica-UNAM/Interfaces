@@ -1,0 +1,3 @@
+geometry_msgs/PointStamped point
+float32 confidence
+string detected_class

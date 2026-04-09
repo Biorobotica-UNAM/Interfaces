@@ -16,8 +16,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetBbox.srv"
   "srv/FindSeat.srv"
   "srv/FindObject.srv"
+  "srv/FindObjectsAll.srv"
   "msg/YoloDetection.msg"
   "msg/YoloDetections.msg"
+  "msg/ObjectResult.msg"
   
   DEPENDENCIES sensor_msgs geometry_msgs std_msgs
 )

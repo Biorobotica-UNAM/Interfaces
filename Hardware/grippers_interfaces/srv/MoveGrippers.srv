@@ -1,7 +1,7 @@
-uint8   cmd          # open, close, stop, query_status
+string   cmd          # open, close, stop, query_status
 ---
 bool    success      # 0 stalled, 1 reached
-uint16  status       # REACHED, STALLED, MOVING, IDLE
+string  status       # REACHED, STALLED, MOVING, IDLE
 uint16  speed_rpm
 uint16  current
 string  message

@@ -1,0 +1,7 @@
+# Petición (Request)
+string label    # El nombre de la etiqueta (ej: name_1, guest_emotion_1)
+string value    # El valor a guardar (ej: jorge, happy)
+---
+# Respuesta (Response)
+bool success    # Indica si se pudo actualizar y guardar en el YAML
+string message  # Información extra (ej: "Label updated successfully")

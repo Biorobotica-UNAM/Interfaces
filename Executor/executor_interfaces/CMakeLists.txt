@@ -26,6 +26,7 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/UpdateKnowledge.srv"
   "msg/RobotContext.msg"
   "msg/TaskResult.msg"
   "msg/TaskFeedback.msg"

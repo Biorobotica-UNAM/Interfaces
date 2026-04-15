@@ -1,7 +1,15 @@
 string   cmd          # open, close, stop, query_status
 ---
+<<<<<<< Updated upstream
 bool    success      # 0 stalled, 1 reached
 string  status       # REACHED, STALLED, MOVING, IDLE
 uint16  speed_rpm
 uint16  current
 string  message
+=======
+bool     success      # 0 stalled, 1 reached
+string   status       # REACHED, STALLED, MOVING, IDLE
+int32    position
+uint16   current
+string   message
+>>>>>>> Stashed changes

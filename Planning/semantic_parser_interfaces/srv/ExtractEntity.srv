@@ -1,0 +1,9 @@
+# Request: one natural language sentence to parse
+string sentence
+
+---
+
+# Response: extracted entities as independent strings
+# Empty string means the entity was not found in the sentence
+string name
+string drink

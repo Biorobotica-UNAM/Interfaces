@@ -7,6 +7,7 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Parser.srv"
+  "srv/ExtractEntity.srv"
   DEPENDENCIES std_msgs
 )
 

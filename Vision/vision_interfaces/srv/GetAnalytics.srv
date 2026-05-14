@@ -1,0 +1,11 @@
+bool reset_count
+string filter_mode
+int32 count_limit
+string target_class
+---
+bool success
+string message
+int32 total_cumulative
+int32 current_count
+int32 class_count
+vision_interfaces/YoloDetection[] detections

@@ -10,6 +10,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/BboxToPose.srv"
   "srv/DetectByClass.srv"
+  "srv/GetTableAlignment.srv"
   "srv/GetDetections.srv"
   "srv/GetBbox.srv"
   "srv/FindSeat.srv"

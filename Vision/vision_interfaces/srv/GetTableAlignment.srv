@@ -1,0 +1,5 @@
+# Request vacío
+---
+bool success
+string message
+float64 angle

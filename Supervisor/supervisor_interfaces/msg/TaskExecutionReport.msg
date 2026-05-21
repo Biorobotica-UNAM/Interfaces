@@ -25,7 +25,5 @@ string REASON_NAVIGATION_FAILED="navigation_failed"
 string REASON_TTS_FAILED="tts_failed"
 string REASON_DOOR_CLOSED="door_closed"
 string REASON_DOOR_OPEN="door_open"
-# Door detector service failed; this is different from a valid closed-door reading.
-string REASON_CHECK_SERVICE_FAILED="check_service_failed"
 
 string details

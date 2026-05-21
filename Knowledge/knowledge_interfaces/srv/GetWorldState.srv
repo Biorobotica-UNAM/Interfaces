@@ -1,3 +1,5 @@
-string field
+string category
+string id
+string attribute
 ---
 string json

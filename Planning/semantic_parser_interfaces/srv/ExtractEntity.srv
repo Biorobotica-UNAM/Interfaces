@@ -1,9 +1,7 @@
-# Request: one natural language sentence to parse
-string sentence
-
+string sentence # Request: one natural language sentence to parse
+string category # the category of LUT to respond
 ---
 
 # Response: extracted entities as independent strings
-# Empty string means the entity was not found in the sentence
-string name
-string drink
+string value
+string[] values

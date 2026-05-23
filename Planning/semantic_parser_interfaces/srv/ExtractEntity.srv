@@ -1,0 +1,7 @@
+string sentence # Request: one natural language sentence to parse
+string category # the category of LUT to respond
+---
+
+# Response: extracted entities as independent strings
+string value
+string[] values

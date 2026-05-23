@@ -8,15 +8,15 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/YoloService.srv"
-  "srv/Owlv2Service.srv"
   "srv/BboxToPose.srv"
   "srv/DetectByClass.srv"
+  "srv/GetTableAlignment.srv"
   "srv/GetDetections.srv"
   "srv/GetBbox.srv"
   "srv/FindSeat.srv"
   "srv/FindObject.srv"
   "srv/FindObjectsAll.srv"
+  "srv/GetAnalytics.srv"
   "msg/YoloDetection.msg"
   "msg/YoloDetections.msg"
   "msg/ObjectResult.msg"

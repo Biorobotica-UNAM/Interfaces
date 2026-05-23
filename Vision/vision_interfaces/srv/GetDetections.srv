@@ -1,4 +1,4 @@
-# No request required
+string[] queries
 ---
 YoloDetection[] detections
 bool success

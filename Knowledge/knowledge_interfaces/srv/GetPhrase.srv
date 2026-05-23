@@ -1,0 +1,7 @@
+# Request
+string phrase   # clave a buscar en los archivos de frases (ej: "going_to")
+string context  # arhcivo donde buscar (varcío = buscar en todos)
+---
+# Response
+bool   success
+string text     # frase resuelta con slots reemplazados

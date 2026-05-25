@@ -4,4 +4,5 @@ bool     success      # 0 stalled, 1 reached
 string	 message
 string   status       # REACHED, STALLED, MOVING, IDLE
 uint16   speed_rpm
+int32	 position
 uint16   current

@@ -1,3 +1,5 @@
+string action_type
+string arm_side
 ---
 bool human_detected
 string direction

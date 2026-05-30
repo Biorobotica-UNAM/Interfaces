@@ -1,4 +1,7 @@
-string json
+string category
+string id
+string attribute
+string value
 ---
 bool success
 string message

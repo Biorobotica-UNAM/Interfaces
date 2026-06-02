@@ -9,6 +9,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/LocationsServer.srv"
   "srv/LocationsGet.srv"
   "srv/SavePoseLocation.srv"
+  "srv/NavigateMapless.srv"
   DEPENDENCIES geometry_msgs
 )
 

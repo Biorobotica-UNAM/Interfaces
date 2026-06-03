@@ -1,5 +1,6 @@
 geometry_msgs/PoseStamped target_pose
 string planning_group
+string tip_link  
 float64 planning_time
 ---
 bool success

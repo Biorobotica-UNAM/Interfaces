@@ -1,11 +1,27 @@
-bool reset_count
-string filter_mode
-int32 count_limit
+# ── REQUEST ──────────────────────────────────────────────
+string action
 string target_class
+string filter_mode
+int32  count_limit
+string color
+string[] compare_classes
+bool   reset_count
 ---
-bool success
+# ── RESPONSE ─────────────────────────────────────────────
+bool   success
 string message
-int32 total_cumulative
-int32 current_count
-int32 class_count
+
+# count / compare_count
+int32  current_count
+int32  class_count
+int32  total_cumulative
+string winner_class
+string[] compare_classes
+int32[]  compare_counts
+
+# get_by_size / get_by_color
 vision_interfaces/YoloDetection[] detections
+vision_interfaces/YoloDetection   best_match
+bool    has_best_match
+float32 best_match_area
+string  best_match_reason

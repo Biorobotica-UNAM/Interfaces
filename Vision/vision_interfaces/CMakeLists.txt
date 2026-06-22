@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FindObject.srv"
   "srv/FindObjectsAll.srv"
   "srv/GetAnalytics.srv"
+  "srv/AnalyzePerson.srv"
   "msg/YoloDetection.msg"
   "msg/YoloDetections.msg"
   "msg/ObjectResult.msg"
@@ -25,7 +26,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 ament_package()
-
 
 
 

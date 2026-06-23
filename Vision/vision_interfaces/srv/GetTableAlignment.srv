@@ -1,4 +1,4 @@
-# Request vacío
+bool is_round
 ---
 bool success
 string message

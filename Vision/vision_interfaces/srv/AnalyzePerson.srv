@@ -1,0 +1,13 @@
+# ── REQUEST ──────────────────────────────────────────────
+string action           # "color" | "attribute" | "gesture" | "combined" | "gesture_color"
+string color            # "red" | "blue" | etc.         → color / combined
+string attribute        # "shirt" | "jacket" | etc.     → color / combined
+string gesture_type     # "pointing" | "waving" | etc.  → gesture / combined
+string arm_side         # "left" | "right" | "any"      → gesture / combined
+---
+# ── RESPONSE ─────────────────────────────────────────────
+bool   success
+string message          # resultado o descripción del error
+vision_interfaces/YoloDetection[] detections   # detecciones del objeto/persona encontrada
+bool has_point          # true si pose_detector regreso un punto 3D de la persona
+geometry_msgs/PointStamped point

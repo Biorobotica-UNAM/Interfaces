@@ -1,6 +1,11 @@
 geometry_msgs/PoseStamped target_pose
 string planning_group
+string tip_link  
 float64 planning_time
+bool enable_target_exclusion
+geometry_msgs/PoseStamped target_exclusion_center
+float64 target_exclusion_radius_xy
+float64 target_exclusion_height_z
 ---
 bool success
 string message

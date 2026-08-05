@@ -1,5 +1,6 @@
 string[] queries
 ---
+std_msgs/Header header
 YoloDetection[] detections
 bool success
 string message

@@ -1,0 +1,5 @@
+string reference        # name or alias ("guest_1", "host")
+---
+bool success
+string error
+Person person

@@ -1,0 +1,5 @@
+string object
+RobotHand hand
+---
+bool success
+string error

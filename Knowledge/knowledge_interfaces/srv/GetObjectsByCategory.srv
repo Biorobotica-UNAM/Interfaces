@@ -1,0 +1,5 @@
+ObjectCategory category
+---
+bool success
+string error
+ManipulableObject[] objects

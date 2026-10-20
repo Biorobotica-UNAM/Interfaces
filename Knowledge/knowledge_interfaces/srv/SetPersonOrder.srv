@@ -1,0 +1,5 @@
+string person
+string[] objects      # names or aliases
+---
+bool success
+string error

@@ -1,0 +1,5 @@
+PersonType type
+---
+bool success
+string error
+Person[] persons

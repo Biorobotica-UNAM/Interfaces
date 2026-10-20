@@ -1,0 +1,5 @@
+LocationZone zone
+---
+bool success
+string error
+KnownLocation[] locations

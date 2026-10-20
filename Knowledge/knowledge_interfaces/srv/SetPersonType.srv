@@ -1,0 +1,5 @@
+string person           # name or alias
+PersonType type
+---
+bool success
+string error

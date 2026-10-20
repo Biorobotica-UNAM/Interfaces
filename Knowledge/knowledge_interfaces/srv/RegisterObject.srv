@@ -1,0 +1,6 @@
+string name
+ObjectCategory category
+LocationZone usual_zone
+---
+bool success
+string error

@@ -1,0 +1,5 @@
+string reference        # name ("apple") or alias ("fruits_1")
+---
+bool success
+string error
+ManipulableObject object
